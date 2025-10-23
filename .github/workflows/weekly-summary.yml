@@ -27,4 +27,4 @@ jobs:
                   JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
                   JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
                   SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-              run: node index.js
+              run: node src/index.js

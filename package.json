@@ -9,7 +9,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "MAHA ALATAWI",
   "license": "ISC",
   "description": "",
   "dependencies": {
