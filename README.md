@@ -53,7 +53,7 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/XXX/XXX/XXX
 ## Usage
 Run the script locally:
 ```bash
-node index.js
+npm run dev
 ```
 - The script will fetch Jira tickets from the past week (Sunday → Saturday) and post the summary to Slack.
 
