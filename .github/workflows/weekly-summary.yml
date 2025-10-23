@@ -2,7 +2,7 @@ name: Weekly Jira Summary
 
 on:
     schedule:
-        - cron: "* * * * *" # Sunday 9AM UTC+3
+        - cron: "*/5 * * * *" # Sunday 9AM UTC+3
     workflow_dispatch:
 
 jobs:
