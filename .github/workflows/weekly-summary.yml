@@ -2,7 +2,7 @@ name: Weekly Jira Summary
 
 on:
     schedule:
-        - cron: "0 6 * * 0" # كل أحد الساعة 9 صباحًا بتوقيت الرياض (UTC+3)
+        - cron: "* * * * *" # Sunday 9AM UTC+3
     workflow_dispatch:
 
 jobs:
