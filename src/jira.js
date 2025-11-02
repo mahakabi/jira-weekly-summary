@@ -6,7 +6,7 @@ import { SystemLogger } from "./logger.js";
 // Calculate Sunday → Saturday week range
 export function getWeekRange() {
   const now = dayjs().subtract(1, "week");
-  const start = now.startOf("week"); // Sundayk
+  const start = now.startOf("week"); // Sunday
   const end = now.endOf("week"); // Saturday
   return { start: start.format("YYYY-MM-DD"), end: end.format("YYYY-MM-DD") };
 }

@@ -14,12 +14,24 @@ A Node.js script that automatically fetches Jira tickets you worked on during th
 
 ## Table of Contents
 
+- [Fork This Repository](#Fork)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [GitHub Actions](#github-actions)
 - [Testing](#testing)
 
+
+## Fork This Repository
+Before using this project, you must fork it to your own GitHub account.
+Each user will have their own secrets and Slack integration.
+
+Steps:
+- Click the Fork button at the top-right of this repository.
+
+- The project will be copied to your own GitHub account.
+
+- Follow the setup steps below in your forked repository.
 
 ## Installation
 
@@ -42,7 +54,7 @@ cp .env.example .env
 ```
 2. Open .env and fill in your credentials:
 ```bash
-JIRA_BASE_URL=https://your-domain.atlassian.net
+JIRA_BASE_URL=https://kabiai.atlassian.net
 JIRA_EMAIL=your-email@example.com
 JIRA_API_TOKEN=your-jira-api-token
 SLACK_WEBHOOK_URL=https://hooks.slack.com/services/XXX/XXX/XXX
